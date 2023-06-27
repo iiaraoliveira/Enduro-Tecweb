@@ -3,9 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+
     <title>Enduro</title>
 </head>
 <body>
     
+    <div class="tela-do-jogo"></div>
+    <div class="carro-principal"></div>
+    <div class="tela-de-vidas"></div>
+    <div class="tela-de-energia"></div>
+    <div id="pontuação">
+      <h1>Pontuação:</h1>
+      <p id="progresso-de-pontos">0</p>
+    </div>
+    <progress id="energia" value="100" max="100"></progress>
+    <script
+      type="text/javascript"
+      src="./JS/randomPositions.js"
+    ></script>
 </body>
 </html>
