@@ -18,13 +18,45 @@ body {
 .tela-do-jogo {
     /* a paisagem do jogo fica mexendo na horizontal */
   width: 100%;
-  height: 100%;
+  height: 250px;
   background: url("./imagens/dia.jpg");
   background-repeat: repeat-x;
-  position: fixed;
+  display: flex;
+  /* flex-direction: column;
+  overflow: hidden; */
+}
+
+
+.pistaReta {
+  width: 100%;
+  height: 250px;
+  background: url("./imagens/reto.png");
+  background-repeat: repeat-x;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  /* animation-name: down;
+  animation-duration: 20s;
+  animation-fill-mode: forwards;
+  animation-timing-function: linear;
+  position: fixed;
+  width: 100vw; */
+  
+} 
+
+.curvas{
+  background: url("./imagens/vira\ direita.png");
+  width: 100%;
+  height: 200px;
+}
+
+.pistaCompleta{
+  width: 100%;
+  height: 650px;
+  display: flex;
+  flex-direction: column;
+  
+
 }
 
 .carro-principal {
@@ -40,7 +72,7 @@ body {
   }
 
   /*PONTOS DO CENÁRIO*/
-.tela-de-vidas,
+/* .tela-de-vidas,
 .coracoes {
   position: fixed;
   width: 100%;
@@ -54,5 +86,6 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-image: url("./imagens/vidas.png");
+  background-image: url("./imagens/vidas.png"); 
 }
+*/
